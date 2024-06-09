@@ -1,0 +1,89 @@
+<html>
+    <head>
+        
+        <title>Cake Bakery</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        </head> 
+    <style>
+        img{
+           float: right;
+            margin-top: -60px;
+        }
+        .container ul li a{
+color: rgb(7, 10, 12);
+text-decoration: none;
+color: whitesmoke;
+font-weight: 100;
+
+        }
+        .container nav{
+            background-color: rgba(0, 0, 0, 0.986);
+        }
+
+        .container nav ul li ul.dropdown li{
+            display: block;
+        }
+        .container nav  ul li ul.dropdown{
+            width: 50px;
+            height: 200px;
+            background-color: rgb(18, 20, 18);
+            position:absolute;
+            display: none;
+            z-index: 999;
+            color: whitesmoke;
+            text-align: center;
+        }   
+        ul li a:hover{
+            background: #f7f6f670;
+        }
+        .container nav  ul li:hover ul.dropdown{
+            display:block ;
+        }
+        .search-container{
+            display: flex;
+            align-items: center;
+            margin-right: 0;
+            position: relative;
+            border-radius: 40px;
+        }
+        .search-container i{
+            position: absolute;
+            top: 50%;
+            right: 40px;
+            transform: translatey(-50%);
+        }
+    </style>
+    <body>
+        <center> <h1>Delicious Cake Bakery</h1></center>
+         <div class="a">
+         <img src="but.jpg" style="border-radius: 65px; width: 70px; background-color: black;padding-left: 5px; padding-right: 1%;">
+         </div>
+         <div class="container">
+             <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#category">Category</a>
+                    <ul class="dropdown">
+                        <li><a href="birthday.html">Birthday</a></li>
+                        <li><a href="chacolate.html">Chacolate</a></li>
+                        <li><a href="cool.html">coolcakes</a></li>
+                        <li><a href="fruits.html">Fruitcakes</a></li>
+                        <li><a href="cup cakes.html">Cupcakes</a></li>
+                    </ul>
+                </li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                    <li><a href="registrationvalid.html">sign in</a></li>
+                </ul>
+                <div class="search-container" >
+                        <input type="text" placeholder="search.." style="font-size: large;">
+                        <i class="fa fa-search"></i>
+                </div>
+                <div class="content">
+            </div>
+            </nav>
+             </div>
+
+    </body>
+</html>
